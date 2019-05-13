@@ -5,6 +5,8 @@ const routes = require("./routes/api");
 const bodyParser = require('body-parser');
 const expressValidator = require('express-validator');
 const Raven = require('raven');
+var cors = require('cors')
+app.use(cors())
 
 // Install global error logger
 if (process.env.SENTRY) {
