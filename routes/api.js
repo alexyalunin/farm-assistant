@@ -1,10 +1,25 @@
 const express = require("express");
 const router = express.Router();
 const pool = require("../db.js")
-
+const path = require('path');
 
 router.get("/", async (req, res) => {
-    res.status(200).send('Success')
+    res.sendFile(path.join(__dirname+'/App/index.html'));
+});
+router.get("/runtime.js", async (req, res) => {
+    res.sendFile(path.join(__dirname+'/App/runtime.js'));
+});
+router.get("/polyfills.js", async (req, res) => {
+    res.sendFile(path.join(__dirname+'/App/polyfills.js'));
+});
+router.get("/styles.js", async (req, res) => {
+    res.sendFile(path.join(__dirname+'/App/styles.js'));
+});
+router.get("/vendor.js", async (req, res) => {
+    res.sendFile(path.join(__dirname+'/App/vendor.js'));
+});
+router.get("/main.js", async (req, res) => {
+    res.sendFile(path.join(__dirname+'/App/main.js'));
 });
 
 router.get("/getDrugs", async (req, res, next) => {
