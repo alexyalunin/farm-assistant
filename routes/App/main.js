@@ -243,7 +243,7 @@ module.exports = "mat-form-field{\r\n  width: 100% !important;\r\n}\r\n\r\n.card
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<ng-container>\r\n\r\n  <div @accordionEdit\r\n       class=\"col-md-12 m-t-md m-b-lg row-selected-bg\">\r\n    <ng-container>\r\n\r\n      <div class=\"row\">\r\n        <div class=\"form-group col-md-12\">\r\n          <mat-form-field>\r\n            <input matInput\r\n                   [(ngModel)]=\"card.name\"\r\n                   placeholder=\"Название\">\r\n          </mat-form-field>\r\n        </div>\r\n      </div>\r\n\r\n\r\n      <div class=\"row\">\r\n        <div class=\"form-group col-md-12\">\r\n          <mat-form-field>\r\n            <input matInput\r\n                   [(ngModel)]=\"card.pharmacodynamics\"\r\n                   placeholder=\"Основной механизм действия\">\r\n          </mat-form-field>\r\n        </div>\r\n      </div>\r\n\r\n\r\n      <div class=\"row\">\r\n        <div class=\"form-group col-md-12\">\r\n          <mat-form-field>\r\n            <input matInput\r\n                   [(ngModel)]=\"card.indications\"\r\n                   placeholder=\"Показания\">\r\n          </mat-form-field>\r\n        </div>\r\n      </div>\r\n\r\n\r\n      <div class=\"row\">\r\n        <div class=\"form-group col-md-12\">\r\n          <mat-form-field>\r\n            <input matInput\r\n                   [(ngModel)]=\"card.min_age\"\r\n                   placeholder=\"Минимальный возраст\">\r\n          </mat-form-field>\r\n        </div>\r\n      </div>\r\n\r\n\r\n      <div class=\"row\">\r\n        <div class=\"form-group col-md-12\">\r\n          <mat-form-field>\r\n            <input matInput\r\n                   [(ngModel)]=\"card.during_pregnancy\"\r\n                   placeholder=\"Беременность\">\r\n          </mat-form-field>\r\n        </div>\r\n      </div>\r\n\r\n\r\n      <div class=\"row\">\r\n        <div class=\"form-group col-md-12\">\r\n          <mat-form-field>\r\n            <input matInput\r\n                   [(ngModel)]=\"card.during_lactation\"\r\n                   placeholder=\"Лактация\">\r\n          </mat-form-field>\r\n        </div>\r\n      </div>\r\n\r\n      <div class=\"row\">\r\n        <div class=\"form-group col-md-12\">\r\n          <mat-form-field>\r\n            <input matInput\r\n                   [(ngModel)]=\"card.during_old_age\"\r\n                   placeholder=\"Пожилой возраст\">\r\n          </mat-form-field>\r\n        </div>\r\n      </div>\r\n\r\n      <div class=\"row\">\r\n        <div class=\"form-group col-md-12\">\r\n          <mat-form-field>\r\n            <input matInput\r\n                   [(ngModel)]=\"card.contraindications\"\r\n                   placeholder=\"Противопоказания\">\r\n          </mat-form-field>\r\n        </div>\r\n      </div>\r\n\r\n\r\n      <div class=\"row\">\r\n        <div class=\"form-group col-md-12\">\r\n          <mat-form-field>\r\n            <input matInput\r\n                   [(ngModel)]=\"card.side_effects\"\r\n                   placeholder=\"Побочный эффект\">\r\n          </mat-form-field>\r\n        </div>\r\n      </div>\r\n\r\n      <div class=\"row\">\r\n        <div class=\"form-group col-md-12\">\r\n          <mat-form-field>\r\n            <input matInput\r\n                   [(ngModel)]=\"card.interactions\"\r\n                   placeholder=\"Возможные взаимодействия\">\r\n          </mat-form-field>\r\n        </div>\r\n      </div>\r\n\r\n\r\n      <div class=\"row\">\r\n        <div class=\"form-group col-md-12\">\r\n          <mat-form-field>\r\n            <input matInput\r\n                   [(ngModel)]=\"card.dosing\"\r\n                   placeholder=\"Режим дозирования\">\r\n          </mat-form-field>\r\n        </div>\r\n      </div>\r\n\r\n\r\n      <div class=\"row\">\r\n        <div class=\"form-group col-md-12\">\r\n          <mat-form-field>\r\n            <input matInput\r\n                   [(ngModel)]=\"card.storage_conditions\"\r\n                   placeholder=\"Правила хранения\">\r\n          </mat-form-field>\r\n        </div>\r\n      </div>\r\n\r\n\r\n      <div class=\"row\">\r\n        <div class=\"form-group col-md-12\">\r\n          <mat-form-field>\r\n            <input matInput\r\n                   [(ngModel)]=\"card.sales_rules\"\r\n                   placeholder=\"Правила отпуска\">\r\n          </mat-form-field>\r\n        </div>\r\n      </div>\r\n\r\n\r\n\r\n      <div class=\"row\">\r\n        <div class=\"col-md-12 m-t-sm\">\r\n\r\n          <button (click)=\"saveChanges();\"\r\n                  mat-raised-button\r\n                  color=\"primary\">\r\n            <i class=\"fa fa-download\"></i> Сохранить\r\n          </button>\r\n\r\n          <button (click)=\"cancelChanges();\"\r\n                  mat-raised-button\r\n                  color=\"basic\"\r\n                  style=\"margin-left:30px;\">\r\n            <i class=\"fa fa fa-times cancel-icon\"></i> Отмена\r\n          </button>\r\n        </div>\r\n      </div>\r\n\r\n    </ng-container>\r\n  </div>\r\n\r\n</ng-container>\r\n"
+module.exports = "<ng-container>\r\n\r\n  <div @accordionEdit\r\n       class=\"col-md-12 m-t-md m-b-lg row-selected-bg\">\r\n    <ng-container>\r\n\r\n      <div class=\"row\">\r\n        <div class=\"form-group col-md-12\">\r\n          <mat-form-field>\r\n            <input matInput\r\n                   [(ngModel)]=\"card.name\"\r\n                   placeholder=\"Название\">\r\n          </mat-form-field>\r\n        </div>\r\n      </div>\r\n\r\n\r\n      <div class=\"row\">\r\n        <div class=\"form-group col-md-12\">\r\n          <mat-form-field>\r\n            <input matInput\r\n                   [(ngModel)]=\"card.pharmacodynamics\"\r\n                   placeholder=\"Основной механизм действия\">\r\n          </mat-form-field>\r\n        </div>\r\n      </div>\r\n\r\n\r\n      <div class=\"row\">\r\n        <div class=\"form-group col-md-12\">\r\n          <mat-form-field>\r\n            <input matInput\r\n                   [(ngModel)]=\"card.indications\"\r\n                   placeholder=\"Показания\">\r\n          </mat-form-field>\r\n        </div>\r\n      </div>\r\n\r\n\r\n      <div class=\"row\">\r\n        <div class=\"form-group col-md-12\">\r\n          <mat-form-field>\r\n            <input matInput\r\n                   [(ngModel)]=\"card.min_age\"\r\n                   placeholder=\"Минимальный возраст\">\r\n          </mat-form-field>\r\n        </div>\r\n      </div>\r\n\r\n\r\n      <div class=\"row\">\r\n        <div class=\"form-group col-md-12\">\r\n          <mat-form-field>\r\n            <input matInput\r\n                   [(ngModel)]=\"card.during_pregnancy\"\r\n                   placeholder=\"Беременность\">\r\n          </mat-form-field>\r\n        </div>\r\n      </div>\r\n\r\n\r\n      <div class=\"row\">\r\n        <div class=\"form-group col-md-12\">\r\n          <mat-form-field>\r\n            <input matInput\r\n                   [(ngModel)]=\"card.during_lactation\"\r\n                   placeholder=\"Лактация\">\r\n          </mat-form-field>\r\n        </div>\r\n      </div>\r\n\r\n      <div class=\"row\">\r\n        <div class=\"form-group col-md-12\">\r\n          <mat-form-field>\r\n            <input matInput\r\n                   [(ngModel)]=\"card.during_old_age\"\r\n                   placeholder=\"Пожилой возраст\">\r\n          </mat-form-field>\r\n        </div>\r\n      </div>\r\n\r\n      <div class=\"row\">\r\n        <div class=\"form-group col-md-12\">\r\n          <mat-form-field>\r\n            <input matInput\r\n                   [(ngModel)]=\"card.contraindications\"\r\n                   placeholder=\"Противопоказания\">\r\n          </mat-form-field>\r\n        </div>\r\n      </div>\r\n\r\n\r\n      <div class=\"row\">\r\n        <div class=\"form-group col-md-12\">\r\n          <mat-form-field>\r\n            <input matInput\r\n                   [(ngModel)]=\"card.side_effects\"\r\n                   placeholder=\"Побочный эффект\">\r\n          </mat-form-field>\r\n        </div>\r\n      </div>\r\n\r\n      <div class=\"row\">\r\n        <div class=\"form-group col-md-12\">\r\n          <mat-form-field>\r\n            <input matInput\r\n                   [(ngModel)]=\"card.interactions\"\r\n                   placeholder=\"Возможные взаимодействия\">\r\n          </mat-form-field>\r\n        </div>\r\n      </div>\r\n\r\n\r\n      <div class=\"row\">\r\n        <div class=\"form-group col-md-12\">\r\n          <mat-form-field>\r\n            <input matInput\r\n                   [(ngModel)]=\"card.dosing\"\r\n                   placeholder=\"Режим дозирования\">\r\n          </mat-form-field>\r\n        </div>\r\n      </div>\r\n\r\n\r\n      <div class=\"row\">\r\n        <div class=\"form-group col-md-12\">\r\n          <mat-form-field>\r\n            <input matInput\r\n                   [(ngModel)]=\"card.storage_conditions\"\r\n                   placeholder=\"Правила хранения\">\r\n          </mat-form-field>\r\n        </div>\r\n      </div>\r\n\r\n\r\n      <div class=\"row\">\r\n        <div class=\"form-group col-md-12\">\r\n          <mat-form-field>\r\n            <input matInput\r\n                   [(ngModel)]=\"card.sales_rules\"\r\n                   placeholder=\"Правила отпуска\">\r\n          </mat-form-field>\r\n        </div>\r\n      </div>\r\n\r\n\r\n\r\n      <div class=\"row\">\r\n        <div class=\"col-md-12 m-t-sm\">\r\n\r\n          <button (click)=\"saveChanges();\"\r\n                  mat-raised-button\r\n                  color=\"primary\">\r\n            Сохранить\r\n          </button>\r\n\r\n          <button (click)=\"cancelChanges();\"\r\n                  mat-raised-button\r\n                  color=\"basic\"\r\n                  style=\"margin-left:30px;\">\r\n           Отмена\r\n          </button>\r\n        </div>\r\n      </div>\r\n\r\n    </ng-container>\r\n  </div>\r\n\r\n</ng-container>\r\n"
 
 /***/ }),
 
@@ -369,7 +369,7 @@ var CardEditComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".single-line {\r\n  overflow: hidden;\r\n  white-space: pre;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNhcmRzL2NhcmQtcm93L2NhcmQtcm93LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxnQkFBZ0I7RUFDaEIsZ0JBQWdCO0FBQ2xCIiwiZmlsZSI6ImNhcmRzL2NhcmQtcm93L2NhcmQtcm93LmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuc2luZ2xlLWxpbmUge1xyXG4gIG92ZXJmbG93OiBoaWRkZW47XHJcbiAgd2hpdGUtc3BhY2U6IHByZTtcclxufVxyXG4iXX0= */"
+module.exports = ".single-line {\r\n  overflow: hidden;\r\n  white-space: pre;\r\n}\r\n\r\n\r\n.name-col {\r\n  font-size: 15px !important;\r\n  font-weight: 700 !important;\r\n  color: black !important;\r\n  opacity: 0.7 !important;\r\n  padding-left: 20px;\r\n}\r\n\r\n\r\ntd {\r\n  padding-top: 10px !important;\r\n  padding-bottom: 10px !important;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNhcmRzL2NhcmQtcm93L2NhcmQtcm93LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxnQkFBZ0I7RUFDaEIsZ0JBQWdCO0FBQ2xCOzs7QUFHQTtFQUNFLDBCQUEwQjtFQUMxQiwyQkFBMkI7RUFDM0IsdUJBQXVCO0VBQ3ZCLHVCQUF1QjtFQUN2QixrQkFBa0I7QUFDcEI7OztBQUVBO0VBQ0UsNEJBQTRCO0VBQzVCLCtCQUErQjtBQUNqQyIsImZpbGUiOiJjYXJkcy9jYXJkLXJvdy9jYXJkLXJvdy5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnNpbmdsZS1saW5lIHtcclxuICBvdmVyZmxvdzogaGlkZGVuO1xyXG4gIHdoaXRlLXNwYWNlOiBwcmU7XHJcbn1cclxuXHJcblxyXG4ubmFtZS1jb2wge1xyXG4gIGZvbnQtc2l6ZTogMTVweCAhaW1wb3J0YW50O1xyXG4gIGZvbnQtd2VpZ2h0OiA3MDAgIWltcG9ydGFudDtcclxuICBjb2xvcjogYmxhY2sgIWltcG9ydGFudDtcclxuICBvcGFjaXR5OiAwLjcgIWltcG9ydGFudDtcclxuICBwYWRkaW5nLWxlZnQ6IDIwcHg7XHJcbn1cclxuXHJcbnRkIHtcclxuICBwYWRkaW5nLXRvcDogMTBweCAhaW1wb3J0YW50O1xyXG4gIHBhZGRpbmctYm90dG9tOiAxMHB4ICFpbXBvcnRhbnQ7XHJcbn1cclxuIl19 */"
 
 /***/ }),
 
@@ -380,7 +380,7 @@ module.exports = ".single-line {\r\n  overflow: hidden;\r\n  white-space: pre;\r
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<ng-container>\r\n  <td>\r\n    {{card.name}}\r\n  </td>\r\n  <td>\r\n    <button *ngIf=\"canEdit(card)\"\r\n            [disabled]=\"card.isEdited\"\r\n            (click)=\"editCard(card); $event.stopPropagation();\"\r\n            mat-raised-button\r\n            matTooltip=\"Редактировать\"\r\n            [matTooltipPosition]=\"'after'\"\r\n            class=\"mat-button\">\r\n      <!--<i class=\"fa fa-pencil\"></i>--> Редактировать\r\n    </button>\r\n  </td>\r\n</ng-container>\r\n"
+module.exports = "<ng-container>\r\n  <td class=\"name-col\">\r\n    {{card.name}}\r\n  </td>\r\n  <td *ngIf=\"cardsService.role=='admin'\"\r\n      style=\"float:right !important; margin-right: 30px !important;\">\r\n    <button *ngIf=\"canEdit(card)\"\r\n            [disabled]=\"card.isEdited\"\r\n            (click)=\"editCard(card); $event.stopPropagation();\"\r\n            mat-raised-button\r\n            matTooltip=\"Изменить\"\r\n            [matTooltipPosition]=\"'after'\"\r\n            class=\"mat-button\"\r\n            color=\"basic\"\r\n            style=\"margin-right:15px;\">\r\n      <!--<i class=\"fa fa-pencil\"></i>--> Изменить\r\n    </button>\r\n\r\n    <button *ngIf=\"canEdit(card)\"\r\n            [disabled]=\"card.isEdited\"\r\n            (click)=\"deleteCard(card); $event.stopPropagation();\"\r\n            mat-raised-button\r\n            matTooltip=\"Удалить\"\r\n            [matTooltipPosition]=\"'after'\"\r\n            color=\"warn\"\r\n            class=\"mat-button\">\r\n      <!--<i class=\"fa fa-pencil\"></i>--> Удалить\r\n    </button>\r\n\r\n  </td>\r\n  <td *ngIf=\"role!=='admin'\">\r\n\r\n  </td>\r\n</ng-container>\r\n"
 
 /***/ }),
 
@@ -397,14 +397,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _models_Drugs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../models/Drugs */ "./src/app/cards/models/Drugs.ts");
+/* harmony import */ var _cards_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../cards.service */ "./src/app/cards/cards.service.ts");
+
 
 
 
 var CardRowComponent = /** @class */ (function () {
-    function CardRowComponent() {
+    function CardRowComponent(cardsService) {
+        this.cardsService = cardsService;
+        this.cardDeleted = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
     }
     CardRowComponent.prototype.editCard = function (card) {
         card.isEdited = !card.isEdited;
+    };
+    CardRowComponent.prototype.deleteCard = function (card) {
+        this.cardDeleted.emit(card);
     };
     CardRowComponent.prototype.canEdit = function (card) {
         return true;
@@ -413,13 +420,18 @@ var CardRowComponent = /** @class */ (function () {
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])(),
         tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", _models_Drugs__WEBPACK_IMPORTED_MODULE_2__["Drug"])
     ], CardRowComponent.prototype, "card", void 0);
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"])(),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", Object)
+    ], CardRowComponent.prototype, "cardDeleted", void 0);
     CardRowComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
             selector: 'tr[card-row]',
             template: __webpack_require__(/*! ./card-row.component.html */ "./src/app/cards/card-row/card-row.component.html"),
             encapsulation: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewEncapsulation"].Emulated,
             styles: [__webpack_require__(/*! ./card-row.component.css */ "./src/app/cards/card-row/card-row.component.css")]
-        })
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_cards_service__WEBPACK_IMPORTED_MODULE_3__["CardsService"]])
     ], CardRowComponent);
     return CardRowComponent;
 }());
@@ -435,7 +447,7 @@ var CardRowComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".label-field {\r\n  font-weight: bold;\r\n}\r\n\r\n\r\nth, td {\r\n  cursor: default !important;\r\n}\r\n\r\n\r\n.balance {\r\n  font-weight: 400 !important;\r\n  font-size: 18px;\r\n  border-bottom: 2px solid #3f51b5;\r\n  padding-bottom: 3px;\r\n}\r\n\r\n\r\n.balance-btn {\r\n  margin-left: 5px;\r\n  margin-bottom: 6px;\r\n  display: inline-block;\r\n  color: white;\r\n  background-color: #3f51b5;\r\n}\r\n\r\n\r\n/*mobile*/\r\n\r\n\r\n.border-top {\r\n  border-top: 2px solid #3f51b5 !important;\r\n}\r\n\r\n\r\n.view-edit-btns {\r\n  margin-top: 8px;\r\n  margin-bottom: 8px;\r\n  margin-left: 12px;\r\n}\r\n\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNhcmRzL2NhcmQtc2VsZWN0ZWQvY2FyZC1zZWxlY3RlZC5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsaUJBQWlCO0FBQ25COzs7QUFHQTtFQUNFLDBCQUEwQjtBQUM1Qjs7O0FBRUE7RUFDRSwyQkFBMkI7RUFDM0IsZUFBZTtFQUNmLGdDQUFnQztFQUNoQyxtQkFBbUI7QUFDckI7OztBQUVBO0VBQ0UsZ0JBQWdCO0VBQ2hCLGtCQUFrQjtFQUNsQixxQkFBcUI7RUFDckIsWUFBWTtFQUNaLHlCQUF5QjtBQUMzQjs7O0FBR0EsU0FBUzs7O0FBRVQ7RUFDRSx3Q0FBd0M7QUFDMUM7OztBQUVBO0VBQ0UsZUFBZTtFQUNmLGtCQUFrQjtFQUNsQixpQkFBaUI7QUFDbkIiLCJmaWxlIjoiY2FyZHMvY2FyZC1zZWxlY3RlZC9jYXJkLXNlbGVjdGVkLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIubGFiZWwtZmllbGQge1xyXG4gIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG59XHJcblxyXG5cclxudGgsIHRkIHtcclxuICBjdXJzb3I6IGRlZmF1bHQgIWltcG9ydGFudDtcclxufVxyXG5cclxuLmJhbGFuY2Uge1xyXG4gIGZvbnQtd2VpZ2h0OiA0MDAgIWltcG9ydGFudDtcclxuICBmb250LXNpemU6IDE4cHg7XHJcbiAgYm9yZGVyLWJvdHRvbTogMnB4IHNvbGlkICMzZjUxYjU7XHJcbiAgcGFkZGluZy1ib3R0b206IDNweDtcclxufVxyXG5cclxuLmJhbGFuY2UtYnRuIHtcclxuICBtYXJnaW4tbGVmdDogNXB4O1xyXG4gIG1hcmdpbi1ib3R0b206IDZweDtcclxuICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XHJcbiAgY29sb3I6IHdoaXRlO1xyXG4gIGJhY2tncm91bmQtY29sb3I6ICMzZjUxYjU7XHJcbn1cclxuXHJcblxyXG4vKm1vYmlsZSovXHJcblxyXG4uYm9yZGVyLXRvcCB7XHJcbiAgYm9yZGVyLXRvcDogMnB4IHNvbGlkICMzZjUxYjUgIWltcG9ydGFudDtcclxufVxyXG5cclxuLnZpZXctZWRpdC1idG5zIHtcclxuICBtYXJnaW4tdG9wOiA4cHg7XHJcbiAgbWFyZ2luLWJvdHRvbTogOHB4O1xyXG4gIG1hcmdpbi1sZWZ0OiAxMnB4O1xyXG59XHJcblxyXG4iXX0= */"
+module.exports = ".label-field {\r\n  font-weight: bold;\r\n}\r\n\r\n.data-content {\r\n  padding-left: 60px !important;\r\n  padding-top: 5px !important;\r\n  padding-bottom: 5px !important;\r\n}\r\n\r\n.parent-block {\r\n  margin-top: 20px !important;\r\n  margin-bottom: 30px !important;\r\n}\r\n\r\nth, td {\r\n  cursor: default !important;\r\n}\r\n\r\n.balance {\r\n  font-weight: 400 !important;\r\n  font-size: 18px;\r\n  border-bottom: 2px solid #3f51b5;\r\n  padding-bottom: 3px;\r\n}\r\n\r\n.balance-btn {\r\n  margin-left: 5px;\r\n  margin-bottom: 6px;\r\n  display: inline-block;\r\n  color: white;\r\n  background-color: #3f51b5;\r\n}\r\n\r\n/*mobile*/\r\n\r\n.border-top {\r\n  border-top: 2px solid #3f51b5 !important;\r\n}\r\n\r\n.view-edit-btns {\r\n  margin-top: 8px;\r\n  margin-bottom: 8px;\r\n  margin-left: 12px;\r\n}\r\n\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNhcmRzL2NhcmQtc2VsZWN0ZWQvY2FyZC1zZWxlY3RlZC5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsaUJBQWlCO0FBQ25COztBQUVBO0VBQ0UsNkJBQTZCO0VBQzdCLDJCQUEyQjtFQUMzQiw4QkFBOEI7QUFDaEM7O0FBRUE7RUFDRSwyQkFBMkI7RUFDM0IsOEJBQThCO0FBQ2hDOztBQUdBO0VBQ0UsMEJBQTBCO0FBQzVCOztBQUVBO0VBQ0UsMkJBQTJCO0VBQzNCLGVBQWU7RUFDZixnQ0FBZ0M7RUFDaEMsbUJBQW1CO0FBQ3JCOztBQUVBO0VBQ0UsZ0JBQWdCO0VBQ2hCLGtCQUFrQjtFQUNsQixxQkFBcUI7RUFDckIsWUFBWTtFQUNaLHlCQUF5QjtBQUMzQjs7QUFHQSxTQUFTOztBQUVUO0VBQ0Usd0NBQXdDO0FBQzFDOztBQUVBO0VBQ0UsZUFBZTtFQUNmLGtCQUFrQjtFQUNsQixpQkFBaUI7QUFDbkIiLCJmaWxlIjoiY2FyZHMvY2FyZC1zZWxlY3RlZC9jYXJkLXNlbGVjdGVkLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIubGFiZWwtZmllbGQge1xyXG4gIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG59XHJcblxyXG4uZGF0YS1jb250ZW50IHtcclxuICBwYWRkaW5nLWxlZnQ6IDYwcHggIWltcG9ydGFudDtcclxuICBwYWRkaW5nLXRvcDogNXB4ICFpbXBvcnRhbnQ7XHJcbiAgcGFkZGluZy1ib3R0b206IDVweCAhaW1wb3J0YW50O1xyXG59XHJcblxyXG4ucGFyZW50LWJsb2NrIHtcclxuICBtYXJnaW4tdG9wOiAyMHB4ICFpbXBvcnRhbnQ7XHJcbiAgbWFyZ2luLWJvdHRvbTogMzBweCAhaW1wb3J0YW50O1xyXG59XHJcblxyXG5cclxudGgsIHRkIHtcclxuICBjdXJzb3I6IGRlZmF1bHQgIWltcG9ydGFudDtcclxufVxyXG5cclxuLmJhbGFuY2Uge1xyXG4gIGZvbnQtd2VpZ2h0OiA0MDAgIWltcG9ydGFudDtcclxuICBmb250LXNpemU6IDE4cHg7XHJcbiAgYm9yZGVyLWJvdHRvbTogMnB4IHNvbGlkICMzZjUxYjU7XHJcbiAgcGFkZGluZy1ib3R0b206IDNweDtcclxufVxyXG5cclxuLmJhbGFuY2UtYnRuIHtcclxuICBtYXJnaW4tbGVmdDogNXB4O1xyXG4gIG1hcmdpbi1ib3R0b206IDZweDtcclxuICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XHJcbiAgY29sb3I6IHdoaXRlO1xyXG4gIGJhY2tncm91bmQtY29sb3I6ICMzZjUxYjU7XHJcbn1cclxuXHJcblxyXG4vKm1vYmlsZSovXHJcblxyXG4uYm9yZGVyLXRvcCB7XHJcbiAgYm9yZGVyLXRvcDogMnB4IHNvbGlkICMzZjUxYjUgIWltcG9ydGFudDtcclxufVxyXG5cclxuLnZpZXctZWRpdC1idG5zIHtcclxuICBtYXJnaW4tdG9wOiA4cHg7XHJcbiAgbWFyZ2luLWJvdHRvbTogOHB4O1xyXG4gIG1hcmdpbi1sZWZ0OiAxMnB4O1xyXG59XHJcblxyXG4iXX0= */"
 
 /***/ }),
 
@@ -446,7 +458,7 @@ module.exports = ".label-field {\r\n  font-weight: bold;\r\n}\r\n\r\n\r\nth, td 
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<ng-container>\r\n  <div @accordionSelect>\r\n\r\n    <div class=\"row\">\r\n      <div class=\"col-md-12\">\r\n        <span class=\"label-field\">\r\n          Название:\r\n        </span>\r\n        {{viewData.name}}\r\n      </div>\r\n    </div>\r\n\r\n    <div class=\"row\">\r\n      <div class=\"col-md-12\">\r\n        <span class=\"label-field\">\r\n          Основной механизм действия:\r\n        </span>\r\n        {{viewData.pharmacodynamics}}\r\n      </div>\r\n    </div>\r\n\r\n    <div class=\"row\">\r\n      <div class=\"col-md-12\">\r\n        <span class=\"label-field\">\r\n          Показания:\r\n        </span>\r\n        {{viewData.indications}}\r\n      </div>\r\n    </div>\r\n\r\n    <div class=\"row\">\r\n      <div class=\"col-md-12\">\r\n        <span class=\"label-field\">\r\n          Минимальный возраст:\r\n        </span>\r\n        {{viewData.min_age}}\r\n      </div>\r\n    </div>\r\n\r\n    <div class=\"row\">\r\n      <div class=\"col-md-12\">\r\n        <span class=\"label-field\">\r\n          Беременность:\r\n        </span>\r\n        {{viewData.during_pregnancy}}\r\n      </div>\r\n    </div>\r\n\r\n    <div class=\"row\">\r\n      <div class=\"col-md-12\">\r\n        <span class=\"label-field\">\r\n          Лактация:\r\n        </span>\r\n        {{viewData.during_lactation}}\r\n      </div>\r\n    </div>\r\n\r\n    <div class=\"row\">\r\n      <div class=\"col-md-12\">\r\n        <span class=\"label-field\">\r\n          Пожилой возраст:\r\n        </span>\r\n        {{viewData.during_old_age}}\r\n      </div>\r\n    </div>\r\n\r\n    <div class=\"row\">\r\n      <div class=\"col-md-12\">\r\n        <span class=\"label-field\">\r\n          Противопоказания:\r\n        </span>\r\n        {{viewData.contraindications}}\r\n      </div>\r\n    </div>\r\n\r\n    <div class=\"row\">\r\n      <div class=\"col-md-12\">\r\n        <span class=\"label-field\">\r\n          Побочный эффект:\r\n        </span>\r\n        {{viewData.side_effects}}\r\n      </div>\r\n    </div>\r\n\r\n    <div class=\"row\">\r\n      <div class=\"col-md-12\">\r\n        <span class=\"label-field\">\r\n          Возможные взаимодействия:\r\n        </span>\r\n        {{viewData.interactions}}\r\n      </div>\r\n    </div>\r\n\r\n    <div class=\"row\">\r\n      <div class=\"col-md-12\">\r\n        <span class=\"label-field\">\r\n          Режим дозирования:\r\n        </span>\r\n        {{viewData.dosing}}\r\n      </div>\r\n    </div>\r\n\r\n    <div class=\"row\">\r\n      <div class=\"col-md-12\">\r\n        <span class=\"label-field\">\r\n          Правила хранения:\r\n        </span>\r\n        {{viewData.storage_conditions}}\r\n      </div>\r\n    </div>\r\n\r\n    <div class=\"row\">\r\n      <div class=\"col-md-12\">\r\n        <span class=\"label-field\">\r\n          Правила отпуска:\r\n        </span>\r\n        {{viewData.sales_rules}}\r\n      </div>\r\n    </div>\r\n\r\n  </div>\r\n</ng-container>\r\n"
+module.exports = "<ng-container>\r\n  <div @accordionSelect class=\"parent-block\">\r\n\r\n    <div class=\"row\">\r\n      <div class=\"col-md-12 data-content\">\r\n        <span class=\"label-field\">\r\n          Название:\r\n        </span>\r\n        {{viewData.name}}\r\n      </div>\r\n    </div>\r\n\r\n    <div class=\"row\">\r\n      <div class=\"col-md-12 data-content\">\r\n        <span class=\"label-field\">\r\n          Основной механизм действия:\r\n        </span>\r\n        {{viewData.pharmacodynamics}}\r\n      </div>\r\n    </div>\r\n\r\n    <div class=\"row\">\r\n      <div class=\"col-md-12 data-content\">\r\n        <span class=\"label-field\">\r\n          Показания:\r\n        </span>\r\n        {{viewData.indications}}\r\n      </div>\r\n    </div>\r\n\r\n    <div class=\"row\">\r\n      <div class=\"col-md-12 data-content\">\r\n        <span class=\"label-field\">\r\n          Минимальный возраст:\r\n        </span>\r\n        {{viewData.min_age}}\r\n      </div>\r\n    </div>\r\n\r\n    <div class=\"row\">\r\n      <div class=\"col-md-12 data-content\">\r\n        <span class=\"label-field\">\r\n          Беременность:\r\n        </span>\r\n        {{viewData.during_pregnancy}}\r\n      </div>\r\n    </div>\r\n\r\n    <div class=\"row\">\r\n      <div class=\"col-md-12 data-content\">\r\n        <span class=\"label-field\">\r\n          Лактация:\r\n        </span>\r\n        {{viewData.during_lactation}}\r\n      </div>\r\n    </div>\r\n\r\n    <div class=\"row\">\r\n      <div class=\"col-md-12 data-content\">\r\n        <span class=\"label-field\">\r\n          Пожилой возраст:\r\n        </span>\r\n        {{viewData.during_old_age}}\r\n      </div>\r\n    </div>\r\n\r\n    <div class=\"row\">\r\n      <div class=\"col-md-12 data-content\">\r\n        <span class=\"label-field\">\r\n          Противопоказания:\r\n        </span>\r\n        {{viewData.contraindications}}\r\n      </div>\r\n    </div>\r\n\r\n    <div class=\"row\">\r\n      <div class=\"col-md-12 data-content\">\r\n        <span class=\"label-field\">\r\n          Побочный эффект:\r\n        </span>\r\n        {{viewData.side_effects}}\r\n      </div>\r\n    </div>\r\n\r\n    <div class=\"row\">\r\n      <div class=\"col-md-12 data-content\">\r\n        <span class=\"label-field\">\r\n          Возможные взаимодействия:\r\n        </span>\r\n        {{viewData.interactions}}\r\n      </div>\r\n    </div>\r\n\r\n    <div class=\"row\">\r\n      <div class=\"col-md-12 data-content\">\r\n        <span class=\"label-field\">\r\n          Режим дозирования:\r\n        </span>\r\n        {{viewData.dosing}}\r\n      </div>\r\n    </div>\r\n\r\n    <div class=\"row\">\r\n      <div class=\"col-md-12 data-content\">\r\n        <span class=\"label-field\">\r\n          Правила хранения:\r\n        </span>\r\n        {{viewData.storage_conditions}}\r\n      </div>\r\n    </div>\r\n\r\n    <div class=\"row\">\r\n      <div class=\"col-md-12 data-content\">\r\n        <span class=\"label-field\">\r\n          Правила отпуска:\r\n        </span>\r\n        {{viewData.sales_rules}}\r\n      </div>\r\n    </div>\r\n\r\n  </div>\r\n</ng-container>\r\n"
 
 /***/ }),
 
@@ -701,7 +713,7 @@ module.exports = "app-root {\r\n  font-family: Roboto, Arial, sans-serif;\r\n  m
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<ng-container>\r\n\r\n  <!--<div class=\"col-md-12\">\r\n    <search-cards [cards]=\"cards\"\r\n                  [card-statuses]=\"cardStatuses\"\r\n                  [units]=\"units\"\r\n                  [periods]=\"periods\"\r\n                  [goods]=\"goods\"\r\n                  (filtered)=\"onFiltered($event)\">\r\n    </search-cards>\r\n  </div>-->\r\n\r\n  <table matSort (matSortChange)=\"sortCards($event)\"\r\n         class=\"table table-responsive\">\r\n    <thead>\r\n      <tr>\r\n        <th mat-sort-header=\"name\">Название препарата</th>\r\n        <th>Действия</th>\r\n        <!--<th mat-sort-header=\"type\">Тип</th>\r\n  <th mat-sort-header=\"owner\">Держатель</th>\r\n  <th class=\"visible-lg\">Топливо/Услуги</th>\r\n  <th mat-sort-header=\"status\">Состояние</th>-->\r\n      </tr>\r\n    </thead>\r\n    <tbody>\r\n      <ng-template ngFor let-card [ngForOf]=\"viewData\" let-i=\"index\">\r\n\r\n        <!--Обычная строка-->\r\n        <ng-container>\r\n\r\n          <tr card-row\r\n              [card]=\"card\"\r\n              (click)=\"selectCard(card)\"\r\n              class=\"bg-row-status-in-work\"\r\n              style=\"cursor:pointer !important;\"></tr>\r\n\r\n        </ng-container>\r\n\r\n\r\n        <!--Карта выбрана-->\r\n        <tr class=\"material-grey-bg\">\r\n          <td colspan=\"6\"\r\n              class=\"td-container\">\r\n            <card-selected *ngIf=\"card.isSelected && !card.isEdited\"\r\n                           @ngIfAnimation\r\n                           [card]=\"card\">\r\n            </card-selected>\r\n          </td>\r\n        </tr>\r\n\r\n        <!--Карта редактируется-->\r\n        <tr class=\"material-grey-bg\">\r\n          <td colspan=\"6\"\r\n              class=\"td-container\">\r\n            <card-edit *ngIf=\"card.isEdited\"\r\n                       @ngIfAnimation\r\n                       [card]=\"card\"\r\n                       (cardEdited)=\"onCardEdited($event)\"\r\n                       (editingCanceled)=\"onEditingCanceled($event)\">\r\n            </card-edit>\r\n          </td>\r\n        </tr>\r\n\r\n      </ng-template>\r\n    </tbody>\r\n  </table>\r\n\r\n</ng-container>\r\n\r\n\r\n"
+module.exports = "<ng-container>\r\n\r\n  <div style=\"margin-top:20px; \">\r\n    <div class=\"col-md-6\">\r\n      <button [disabled]=\"createMode\"\r\n              (click)=\"addCard(card); $event.stopPropagation();\"\r\n              mat-raised-button\r\n              color=\"primary\"\r\n              style=\"\"\r\n              class=\"mat-button\">\r\n        Добавить препарат\r\n      </button>\r\n    </div>\r\n\r\n    <div class=\"col-md-6\">\r\n      <search-cards [cards]=\"cards\"\r\n                    (filtered)=\"onFiltered($event)\"\r\n                    class=\"pull-right\">\r\n      </search-cards>\r\n    </div>\r\n  </div>\r\n\r\n  <table matSort (matSortChange)=\"sortCards($event)\"\r\n         class=\"table table-responsive\"\r\n         style=\"margin-top:20px; \">\r\n    <thead>\r\n      <tr>\r\n        <th mat-sort-header=\"name\">Название препарата</th>\r\n        <th style=\"float:right !important; margin-right: 190px !important;\">Действия</th>\r\n        <!--<th mat-sort-header=\"type\">Тип</th>\r\n        <th mat-sort-header=\"owner\">Держатель</th>\r\n        <th class=\"visible-lg\">Топливо/Услуги</th>\r\n        <th mat-sort-header=\"status\">Состояние</th>-->\r\n      </tr>\r\n    </thead>\r\n    <tbody>\r\n\r\n      <ng-template ngFor let-card [ngForOf]=\"viewData\" let-i=\"index\">\r\n\r\n        <!--Обычная строка-->\r\n        <ng-container>\r\n\r\n          <tr card-row\r\n              [card]=\"card\"\r\n              (click)=\"selectCard(card)\"\r\n              class=\"material-grey-bg \"\r\n              style=\"cursor:pointer !important;\"\r\n              (cardDeleted)=\"deleteCard($event)\"></tr>\r\n\r\n        </ng-container>\r\n\r\n\r\n        <!--Карта выбрана-->\r\n        <tr class=\"material-grey-bg\">\r\n          <td colspan=\"6\"\r\n              class=\"td-container\">\r\n            <card-selected *ngIf=\"card.isSelected && !card.isEdited\"\r\n                           @ngIfAnimation\r\n                           [card]=\"card\">\r\n            </card-selected>\r\n          </td>\r\n        </tr>\r\n\r\n        <!--Карта редактируется-->\r\n        <tr class=\"material-grey-bg\">\r\n          <td colspan=\"6\"\r\n              class=\"td-container\">\r\n            <card-edit *ngIf=\"card.isEdited\"\r\n                       @ngIfAnimation\r\n                       [card]=\"card\"\r\n                       (cardEdited)=\"onCardEdited($event)\"\r\n                       (editingCanceled)=\"onEditingCanceled($event)\">\r\n            </card-edit>\r\n          </td>\r\n        </tr>\r\n\r\n      </ng-template>\r\n    </tbody>\r\n  </table>\r\n\r\n</ng-container>\r\n\r\n\r\n"
 
 /***/ }),
 
@@ -723,6 +735,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _ui_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../ui.service */ "./src/app/cards/ui.service.ts");
 /* harmony import */ var _models_contract__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../models/contract */ "./src/app/cards/models/contract.ts");
 /* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm5/operators/index.js");
+/* harmony import */ var _models_Drugs__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../models/Drugs */ "./src/app/cards/models/Drugs.ts");
+
 
 
 
@@ -755,16 +769,24 @@ var CardsTableComponent = /** @class */ (function () {
     CardsTableComponent.prototype.selectCard = function (card) {
         card.isSelected = card.isEdited === true ? false : !card.isSelected;
     };
+    CardsTableComponent.prototype.addCard = function (card) {
+        var newCard = new _models_Drugs__WEBPACK_IMPORTED_MODULE_8__["Drug"]();
+        newCard.isEdited = true;
+        this.viewData.unshift(newCard);
+    };
     CardsTableComponent.prototype.onCardEdited = function (card) {
         var i = this.viewData.indexOf(this.viewData.find(function (c) { return c.id == card.id; }));
         if (i > -1) {
             this.viewData[i] = card;
             card.isEdited = false;
         }
-        //this.cardsService.postLimits(this.contract.Guid, editedCopy)
-        //  .pipe(take(1)).subscribe(c => {
-        //  this.handleLoadedCards(c, this.cardStatuses);
-        //});
+    };
+    CardsTableComponent.prototype.deleteCard = function (card) {
+        debugger;
+        var i = this.viewData.indexOf(this.viewData.find(function (c) { return c.id == card.id; }));
+        if (i > -1) {
+            this.viewData.splice(i, 1);
+        }
     };
     CardsTableComponent.prototype.onEditingCanceled = function (editedCopy) {
         var card = this.viewData.find(function (c) { return c.id == editedCopy.id; });
@@ -845,7 +867,7 @@ var CardsTableComponent = /** @class */ (function () {
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
             selector: 'cards-table',
             template: __webpack_require__(/*! ./cards-table.component.html */ "./src/app/cards/cards-table/cards-table.component.html"),
-            providers: [_cards_service__WEBPACK_IMPORTED_MODULE_2__["CardsService"]],
+            //providers: [CardsService],
             encapsulation: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewEncapsulation"].None,
             animations: [
                 _animations__WEBPACK_IMPORTED_MODULE_4__["ngIfAnimation"]
@@ -890,17 +912,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _card_edit_card_edit_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./card-edit/card-edit.component */ "./src/app/cards/card-edit/card-edit.component.ts");
 /* harmony import */ var _search_cards_search_cards_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./search-cards/search-cards.component */ "./src/app/cards/search-cards/search-cards.component.ts");
 /* harmony import */ var _extended_search_extended_search_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./extended-search/extended-search.component */ "./src/app/cards/extended-search/extended-search.component.ts");
-/* harmony import */ var _common_search_common_search_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./common-search/common-search.component */ "./src/app/cards/common-search/common-search.component.ts");
-/* harmony import */ var _cards_service__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./cards.service */ "./src/app/cards/cards.service.ts");
-/* harmony import */ var angular_notifier__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! angular-notifier */ "./node_modules/angular-notifier/esm5/angular-notifier.js");
-/* harmony import */ var _card_top_up_balance_card_top_up_balance_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./card-top-up-balance/card-top-up-balance.component */ "./src/app/cards/card-top-up-balance/card-top-up-balance.component.ts");
-/* harmony import */ var _ui_service__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./ui.service */ "./src/app/cards/ui.service.ts");
-/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
-/* harmony import */ var _limit_new_edit_limit_new_edit_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./limit-new-edit/limit-new-edit.component */ "./src/app/cards/limit-new-edit/limit-new-edit.component.ts");
-/* harmony import */ var _notification_notification_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./notification/notification.component */ "./src/app/cards/notification/notification.component.ts");
-/* harmony import */ var _window_service__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./window.service */ "./src/app/cards/window.service.ts");
-/* harmony import */ var _redirect_dialog_redirect_dialog_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./redirect-dialog/redirect-dialog.component */ "./src/app/cards/redirect-dialog/redirect-dialog.component.ts");
-/* harmony import */ var _angular_js_service__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./angular-js.service */ "./src/app/cards/angular-js.service.ts");
+/* harmony import */ var angular_notifier__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! angular-notifier */ "./node_modules/angular-notifier/esm5/angular-notifier.js");
+/* harmony import */ var _card_top_up_balance_card_top_up_balance_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./card-top-up-balance/card-top-up-balance.component */ "./src/app/cards/card-top-up-balance/card-top-up-balance.component.ts");
+/* harmony import */ var _ui_service__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./ui.service */ "./src/app/cards/ui.service.ts");
+/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
+/* harmony import */ var _limit_new_edit_limit_new_edit_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./limit-new-edit/limit-new-edit.component */ "./src/app/cards/limit-new-edit/limit-new-edit.component.ts");
+/* harmony import */ var _notification_notification_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./notification/notification.component */ "./src/app/cards/notification/notification.component.ts");
+/* harmony import */ var _window_service__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./window.service */ "./src/app/cards/window.service.ts");
+/* harmony import */ var _redirect_dialog_redirect_dialog_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./redirect-dialog/redirect-dialog.component */ "./src/app/cards/redirect-dialog/redirect-dialog.component.ts");
+/* harmony import */ var _angular_js_service__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./angular-js.service */ "./src/app/cards/angular-js.service.ts");
 
 
 
@@ -930,8 +950,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
-
 var CardsModule = /** @class */ (function () {
     function CardsModule() {
     }
@@ -945,13 +963,13 @@ var CardsModule = /** @class */ (function () {
                 _card_selected_card_selected_component__WEBPACK_IMPORTED_MODULE_14__["CardSelectedComponent"],
                 _card_selected_card_selected_component__WEBPACK_IMPORTED_MODULE_14__["CardSelectedComponent"],
                 _card_edit_card_edit_component__WEBPACK_IMPORTED_MODULE_15__["CardEditComponent"],
-                _limit_new_edit_limit_new_edit_component__WEBPACK_IMPORTED_MODULE_24__["LimitNewEditComponent"],
+                _limit_new_edit_limit_new_edit_component__WEBPACK_IMPORTED_MODULE_22__["LimitNewEditComponent"],
                 _search_cards_search_cards_component__WEBPACK_IMPORTED_MODULE_16__["SearchCardsComponent"],
                 _extended_search_extended_search_component__WEBPACK_IMPORTED_MODULE_17__["ExtendedSearchComponent"],
-                _common_search_common_search_component__WEBPACK_IMPORTED_MODULE_18__["CommonSearchComponent"],
-                _card_top_up_balance_card_top_up_balance_component__WEBPACK_IMPORTED_MODULE_21__["CardTopUpBalanceComponent"],
-                _notification_notification_component__WEBPACK_IMPORTED_MODULE_25__["NotificationComponent"],
-                _redirect_dialog_redirect_dialog_component__WEBPACK_IMPORTED_MODULE_27__["RedirectDialogComponent"]
+                //CommonSearchComponent,
+                _card_top_up_balance_card_top_up_balance_component__WEBPACK_IMPORTED_MODULE_19__["CardTopUpBalanceComponent"],
+                _notification_notification_component__WEBPACK_IMPORTED_MODULE_23__["NotificationComponent"],
+                _redirect_dialog_redirect_dialog_component__WEBPACK_IMPORTED_MODULE_25__["RedirectDialogComponent"]
             ],
             imports: [
                 _angular_common__WEBPACK_IMPORTED_MODULE_3__["CommonModule"],
@@ -969,11 +987,11 @@ var CardsModule = /** @class */ (function () {
             ],
             providers: [
                 { provide: 'windowObject', useValue: window },
-                angular_notifier__WEBPACK_IMPORTED_MODULE_20__["NotifierService"],
-                _cards_service__WEBPACK_IMPORTED_MODULE_19__["CardsService"],
-                _ui_service__WEBPACK_IMPORTED_MODULE_22__["UiService"],
-                _window_service__WEBPACK_IMPORTED_MODULE_26__["WindowService"],
-                _angular_js_service__WEBPACK_IMPORTED_MODULE_28__["AngularJsService"]
+                angular_notifier__WEBPACK_IMPORTED_MODULE_18__["NotifierService"],
+                //CardsService,
+                _ui_service__WEBPACK_IMPORTED_MODULE_20__["UiService"],
+                _window_service__WEBPACK_IMPORTED_MODULE_24__["WindowService"],
+                _angular_js_service__WEBPACK_IMPORTED_MODULE_26__["AngularJsService"]
                 //{
                 //  provide: HTTP_INTERCEPTORS,
                 //  useClass: HttpErrorInterceptor,
@@ -981,7 +999,7 @@ var CardsModule = /** @class */ (function () {
                 //  deps: [ NotifierService ]
                 //}
             ],
-            entryComponents: [_angular_material__WEBPACK_IMPORTED_MODULE_23__["MatSpinner"], _redirect_dialog_redirect_dialog_component__WEBPACK_IMPORTED_MODULE_27__["RedirectDialogComponent"]]
+            entryComponents: [_angular_material__WEBPACK_IMPORTED_MODULE_21__["MatSpinner"], _redirect_dialog_redirect_dialog_component__WEBPACK_IMPORTED_MODULE_25__["RedirectDialogComponent"]]
         })
     ], CardsModule);
     return CardsModule;
@@ -1042,6 +1060,19 @@ var CardsService = /** @class */ (function () {
         this.http = http;
         this.initConvertor();
     }
+    CardsService.prototype.getRole = function () {
+        return this.role;
+    };
+    CardsService.prototype.logInAsAdmin = function (login, password) {
+        if (login === 'admin' && password === '1234') {
+            this.role = 'admin';
+            return true;
+        }
+        return false;
+    };
+    CardsService.prototype.logOut = function () {
+        this.role = undefined;
+    };
     CardsService.prototype.getDrugs = function () {
         var _this = this;
         return this.http.get("" + getDrugsUrl).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (data) {
@@ -1114,7 +1145,7 @@ module.exports = ".center-block {\r\n  float: none;\r\n  margin: 0 auto;\r\n}\r\
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\r\n<div class=\"col-md-10 center-block\">\r\n  <div class=\"hpanel\">\r\n    <div class=\"panel-heading  hbuilt material-primary-bg\">\r\n      <div *ngIf=\"!isMobileView\"\r\n           class=\"panel-tools\">\r\n\r\n        <button (click)=\"expandCards()\"\r\n                mat-raised-button\r\n                color=\"primary\"\r\n                style=\"margin-top:4px; background-color:#7986CB\">\r\n          <span>\r\n            {{ isExpanded === true ? 'Свернуть все' : 'Раскрыть все'}}\r\n          </span>\r\n        </button>\r\n\r\n      </div>\r\n      <h3 class=\"font-uppercase\">\r\n        Препараты\r\n      </h3>\r\n\r\n    </div>\r\n\r\n    <div class=\"panel-body\">\r\n      <cards-table [contract]=\"contract\"\r\n                   [isMobileView]=\"isMobileView\"\r\n                   (cardsLoaded)=\"onCardsLoaded($event)\">\r\n      </cards-table>\r\n    </div>\r\n  </div>\r\n</div>\r\n\r\n\r\n"
+module.exports = "{{cardsService.role}}\r\n<div class=\"col-md-10 center-block\">\r\n\r\n  <div class=\"hpanel\">\r\n    <div class=\"panel-heading  hbuilt material-primary-bg\">\r\n      <div class=\"panel-tools\" style=\"margin-left: 20px !important;\">\r\n\r\n        <button *ngIf=\"!cardsService.role\"\r\n                (click)=\"isLogInScreen = true\"\r\n                mat-raised-button\r\n                color=\"primary\"\r\n                style=\"margin-top:4px; background-color:#7986CB\">\r\n          Войти как администратор\r\n        </button>\r\n\r\n        <button *ngIf=\"cardsService.role\"\r\n                (click)=\"logOut()\"\r\n                mat-raised-button\r\n                color=\"primary\"\r\n                style=\"margin-top:4px; background-color:#7986CB\">\r\n          <span>\r\n            Выйти из учетной записи\r\n          </span>\r\n        </button>\r\n\r\n      </div>\r\n      <div *ngIf=\"!isMobileView\"\r\n           class=\"panel-tools\">\r\n\r\n        <button *ngIf=\"!isLogInScreen\"\r\n                (click)=\"expandCards()\"\r\n                mat-raised-button\r\n                color=\"primary\"\r\n                style=\"margin-top:4px; background-color:#7986CB\">\r\n          <span>\r\n            {{ isExpanded === true ? 'Свернуть все' : 'Раскрыть все'}}\r\n          </span>\r\n        </button>\r\n\r\n      </div>\r\n      <h3 class=\"font-uppercase\">\r\n        Препараты\r\n      </h3>\r\n\r\n    </div>\r\n\r\n    <div class=\"panel-body\">\r\n\r\n      <cards-table *ngIf=\"!isLogInScreen\"\r\n                   [contract]=\"contract\"\r\n                   [isMobileView]=\"isMobileView\"\r\n                   (cardsLoaded)=\"onCardsLoaded($event)\">\r\n      </cards-table>\r\n\r\n      <div *ngIf=\"isLogInScreen\" class=\"col-md-7 col-md-offset-5\">\r\n\r\n        <div class=\"row\" *ngIf=\"showError\">\r\n          <div class=\"form-group col-md-12\">\r\n            <h4 style=\"color: red\"> Неверный логин или пароль</h4>\r\n          </div>\r\n        </div>\r\n\r\n        <div class=\"row\">\r\n          <div class=\"form-group col-md-2\">\r\n            <mat-form-field>\r\n              <input matInput\r\n                     autocomplete=\"off\"\r\n                     [(ngModel)]=\"login\"\r\n                     placeholder=\"Логин\">\r\n            </mat-form-field>\r\n          </div>\r\n        </div>\r\n\r\n        <div class=\"row\">\r\n          <div class=\"form-group col-md-2\">\r\n            <mat-form-field>\r\n              <input matInput\r\n                     autocomplete=\"off\"\r\n                     [(ngModel)]=\"password\"\r\n                     type=\"password\"\r\n                     placeholder=\"Пароль\">\r\n            </mat-form-field>\r\n          </div>\r\n        </div>\r\n\r\n\r\n        <div class=\"col-md-12\">\r\n\r\n          <button (click)=\"logIn()\"\r\n                  mat-raised-button\r\n                  color=\"primary\">\r\n            Войти\r\n          </button>\r\n\r\n          <button (click)=\"cancelLogIn()\"\r\n                  mat-raised-button\r\n                  color=\"basic\"\r\n                  style=\"margin-left:20px;\">\r\n            <span>\r\n              Отмена\r\n            </span>\r\n          </button>\r\n        </div>\r\n\r\n\r\n      </div>\r\n\r\n    </div>\r\n  </div>\r\n\r\n</div>\r\n\r\n\r\n"
 
 /***/ }),
 
@@ -1134,6 +1165,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _window_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../window.service */ "./src/app/cards/window.service.ts");
 /* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm5/index.js");
 /* harmony import */ var _angular_js_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../angular-js.service */ "./src/app/cards/angular-js.service.ts");
+/* harmony import */ var _cards_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../cards.service */ "./src/app/cards/cards.service.ts");
+
 
 
 
@@ -1142,13 +1175,16 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var CardsComponent = /** @class */ (function () {
-    function CardsComponent(windowService, angularJs) {
+    function CardsComponent(windowService, angularJs, cardsService) {
         this.windowService = windowService;
         this.angularJs = angularJs;
+        this.cardsService = cardsService;
         this.isExpanded = false;
         this.hasRosneftEmvCards = false;
         this.isMobileView = false;
         this.subscriptions = new rxjs__WEBPACK_IMPORTED_MODULE_4__["Subscription"]();
+        this.showError = false;
+        this.isLogInScreen = false;
     }
     CardsComponent.prototype.ngOnInit = function () {
         var _this = this;
@@ -1177,6 +1213,24 @@ var CardsComponent = /** @class */ (function () {
             this.isExpanded = !this.isExpanded;
         }
     };
+    CardsComponent.prototype.logIn = function () {
+        var result = this.cardsService.logInAsAdmin(this.login, this.password);
+        if (result === true) {
+            this.cancelLogIn();
+        }
+        else {
+            this.showError = true;
+        }
+    };
+    CardsComponent.prototype.cancelLogIn = function () {
+        this.login = undefined;
+        this.password = undefined;
+        this.isLogInScreen = false;
+        this.showError = false;
+    };
+    CardsComponent.prototype.logOut = function () {
+        this.cardsService.logOut();
+    };
     tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"])(_cards_table_cards_table_component__WEBPACK_IMPORTED_MODULE_2__["CardsTableComponent"]),
         tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", _cards_table_cards_table_component__WEBPACK_IMPORTED_MODULE_2__["CardsTableComponent"])
@@ -1188,129 +1242,10 @@ var CardsComponent = /** @class */ (function () {
             styles: [__webpack_require__(/*! ./cards.component.css */ "./src/app/cards/cards/cards.component.css")]
         }),
         tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_window_service__WEBPACK_IMPORTED_MODULE_3__["WindowService"],
-            _angular_js_service__WEBPACK_IMPORTED_MODULE_5__["AngularJsService"]])
+            _angular_js_service__WEBPACK_IMPORTED_MODULE_5__["AngularJsService"],
+            _cards_service__WEBPACK_IMPORTED_MODULE_6__["CardsService"]])
     ], CardsComponent);
     return CardsComponent;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/cards/common-search/common-search.component.css":
-/*!*****************************************************************!*\
-  !*** ./src/app/cards/common-search/common-search.component.css ***!
-  \*****************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJjYXJkcy9jb21tb24tc2VhcmNoL2NvbW1vbi1zZWFyY2guY29tcG9uZW50LmNzcyJ9 */"
-
-/***/ }),
-
-/***/ "./src/app/cards/common-search/common-search.component.html":
-/*!******************************************************************!*\
-  !*** ./src/app/cards/common-search/common-search.component.html ***!
-  \******************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<div [formGroup]=\"searchForm\"\r\n     class=\"inline-block\">\r\n\r\n    <mat-form-field>\r\n      <input matInput\r\n             formControlName=\"keyword\"\r\n             placeholder=\"Поиск\"\r\n             type=\"text\"\r\n             autocomplete=\"off\">\r\n    </mat-form-field>\r\n\r\n</div>\r\n"
-
-/***/ }),
-
-/***/ "./src/app/cards/common-search/common-search.component.ts":
-/*!****************************************************************!*\
-  !*** ./src/app/cards/common-search/common-search.component.ts ***!
-  \****************************************************************/
-/*! exports provided: CommonSearchComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CommonSearchComponent", function() { return CommonSearchComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm5/operators/index.js");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm5/index.js");
-
-
-
-
-
-
-var CommonSearchComponent = /** @class */ (function () {
-    function CommonSearchComponent(route) {
-        this.route = route;
-        this.filtered = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
-        this.subscriptions = new rxjs__WEBPACK_IMPORTED_MODULE_5__["Subscription"]();
-    }
-    Object.defineProperty(CommonSearchComponent.prototype, "keyword", {
-        get: function () { return this.searchForm.get('keyword'); },
-        enumerable: true,
-        configurable: true
-    });
-    CommonSearchComponent.prototype.ngOnInit = function () {
-        var _this = this;
-        this.searchForm = new _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormGroup"]({
-            keyword: new _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormControl"]('')
-        });
-        this.subscriptions.add(this.searchForm.valueChanges.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["debounceTime"])(400), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["distinctUntilChanged"])()).subscribe(function () { return _this.search(); }));
-    };
-    CommonSearchComponent.prototype.ngOnChanges = function (changes) {
-        var _this = this;
-        if (changes.cards && !changes.cards.firstChange && changes.cards.currentValue) {
-            this.subscriptions.add(this.route.queryParams.subscribe(function (params) {
-                _this.keyword.setValue(params.cardNumber ? params.cardNumber : '');
-            }));
-        }
-    };
-    CommonSearchComponent.prototype.ngOnDestroy = function () {
-        this.subscriptions.unsubscribe();
-    };
-    CommonSearchComponent.prototype.search = function () {
-        if (this.keyword.value) {
-            var keyword = this.keyword.value.toLowerCase();
-            this.filteredData = this.commonFilter(keyword);
-        }
-        else {
-            this.filteredData = this.cards;
-        }
-        this.notifyParent(this.filteredData);
-    };
-    CommonSearchComponent.prototype.commonFilter = function (keyword) {
-        return this.cards.filter(function (c) {
-            return c.number.includes(keyword)
-                || c.displayName.toLowerCase().includes(keyword)
-                || c.statusObj.description.toLowerCase().includes(keyword);
-        });
-    };
-    CommonSearchComponent.prototype.notifyParent = function (filteredData) {
-        this.filtered.emit(filteredData);
-    };
-    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])(),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", Array)
-    ], CommonSearchComponent.prototype, "cards", void 0);
-    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])('card-statuses'),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", Array)
-    ], CommonSearchComponent.prototype, "cardStatuses", void 0);
-    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"])(),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", Object)
-    ], CommonSearchComponent.prototype, "filtered", void 0);
-    CommonSearchComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-            selector: 'common-search',
-            template: __webpack_require__(/*! ./common-search.component.html */ "./src/app/cards/common-search/common-search.component.html"),
-            styles: [__webpack_require__(/*! ./common-search.component.css */ "./src/app/cards/common-search/common-search.component.css")]
-        }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_angular_router__WEBPACK_IMPORTED_MODULE_4__["ActivatedRoute"]])
-    ], CommonSearchComponent);
-    return CommonSearchComponent;
 }());
 
 
@@ -1335,7 +1270,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div [formGroup]=\"searchForm\"\r\n     class=\"inline-block\">\r\n\r\n  <mat-form-field>\r\n    <mat-label>Колонка</mat-label>\r\n    <mat-select formControlName=\"column\">\r\n      <mat-option *ngFor=\"let column of columns\" [value]=\"column.value\">{{column.name}}</mat-option>\r\n    </mat-select>\r\n  </mat-form-field>\r\n\r\n  <ng-container [ngSwitch]=\"column.value\">\r\n\r\n    <ng-container *ngSwitchCase=\"column.value === 'limit' || column.value === 'remains' ? column.value : ' ' \">\r\n\r\n      <mat-form-field>\r\n        <mat-label>Фильтр</mat-label>\r\n        <mat-select formControlName=\"operator\">\r\n          <mat-option [value]=\"'more'\">></mat-option>\r\n          <mat-option [value]=\"'less'\"><</mat-option>\r\n          <mat-option [value]=\"'equal'\">=</mat-option>\r\n        </mat-select>\r\n      </mat-form-field>\r\n\r\n      <mat-form-field *ngIf=\"operator.value\">\r\n        <input matInput\r\n               formControlName=\"number\"\r\n               placeholder=\"Значение\"\r\n               type=\"number\">\r\n      </mat-form-field>\r\n\r\n    </ng-container>\r\n\r\n    <mat-form-field *ngSwitchCase=\"'unit'\">\r\n      <mat-label>Значение</mat-label>\r\n      <mat-select formControlName=\"unitOrPeriod\">\r\n        <mat-option *ngFor=\"let unit of units\" [value]=\"unit\">{{unit.name}}</mat-option>\r\n      </mat-select>\r\n    </mat-form-field>\r\n\r\n    <mat-form-field *ngSwitchCase=\"'period'\">\r\n      <mat-label>Значение</mat-label>\r\n      <mat-select formControlName=\"unitOrPeriod\">\r\n        <mat-option *ngFor=\"let period of periods\" [value]=\"period\">{{period.name}}</mat-option>\r\n      </mat-select>\r\n    </mat-form-field>\r\n\r\n    <mat-form-field *ngSwitchCase=\"'goods'\">\r\n      <mat-label>Значение</mat-label>\r\n      <mat-select formControlName=\"goods\" multiple>\r\n        <mat-option *ngFor=\"let good of allGoods\" [value]=\"good\">{{good.name}}</mat-option>\r\n      </mat-select>\r\n    </mat-form-field>\r\n\r\n  </ng-container>\r\n\r\n</div>\r\n"
+module.exports = "<div [formGroup]=\"searchForm\"\r\n     class=\"inline-block\">\r\n\r\n  <mat-form-field style=\"width: 250px !important;\">\r\n    <mat-label>Поиск по</mat-label>\r\n    <mat-select formControlName=\"column\">\r\n      <mat-option *ngFor=\"let column of columns\" [value]=\"column.value\">{{column.name}}</mat-option>\r\n    </mat-select>\r\n  </mat-form-field>\r\n\r\n\r\n  <ng-container *ngIf=\"column.value\">\r\n\r\n    <mat-form-field>\r\n      <input matInput\r\n             formControlName=\"keyword\"\r\n             placeholder=\"Запрос\"\r\n             type=\"text\"\r\n             autocomplete=\"off\">\r\n    </mat-form-field>\r\n\r\n  </ng-container>\r\n\r\n</div>\r\n"
 
 /***/ }),
 
@@ -1364,11 +1299,19 @@ var ExtendedSearchComponent = /** @class */ (function () {
         this.filtered = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
         this.subscriptions = new rxjs__WEBPACK_IMPORTED_MODULE_4__["Subscription"]();
         this.columns = [
-            { value: 'goods', name: 'Топливо/Услуги' },
-            { value: 'limit', name: 'Лимит' },
-            { value: 'unit', name: 'Ед.Изм.' },
-            { value: 'period', name: 'Период' },
-            { value: 'remains', name: 'Остаток' },
+            { value: 'name', name: 'Название' },
+            { value: 'pharmacodynamics', name: 'Основной механизм действия' },
+            { value: 'indications', name: 'Показания' },
+            { value: 'min_age', name: 'Минимальный возраст' },
+            { value: 'during_pregnancy', name: 'Беременность' },
+            { value: 'during_lactation', name: 'Лактация' },
+            { value: 'during_old_age', name: 'Пожилой возраст' },
+            { value: 'contraindications', name: 'Противопоказания' },
+            { value: 'side_effects', name: 'Побочный эффект' },
+            { value: 'interactions', name: 'Возможные взаимодействия' },
+            { value: 'dosing', name: 'Режим дозирования' },
+            { value: 'storage_conditions', name: 'Правила хранения' },
+            { value: 'sales_rules', name: 'Правила отпуска' },
         ];
     }
     Object.defineProperty(ExtendedSearchComponent.prototype, "column", {
@@ -1376,23 +1319,8 @@ var ExtendedSearchComponent = /** @class */ (function () {
         enumerable: true,
         configurable: true
     });
-    Object.defineProperty(ExtendedSearchComponent.prototype, "operator", {
-        get: function () { return this.searchForm.get('operator'); },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(ExtendedSearchComponent.prototype, "number", {
-        get: function () { return this.searchForm.get('number'); },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(ExtendedSearchComponent.prototype, "unitOrPeriod", {
-        get: function () { return this.searchForm.get('unitOrPeriod'); },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(ExtendedSearchComponent.prototype, "goods", {
-        get: function () { return this.searchForm.get('goods'); },
+    Object.defineProperty(ExtendedSearchComponent.prototype, "keyword", {
+        get: function () { return this.searchForm.get('keyword'); },
         enumerable: true,
         configurable: true
     });
@@ -1400,11 +1328,9 @@ var ExtendedSearchComponent = /** @class */ (function () {
         var _this = this;
         this.searchForm = new _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormGroup"]({
             column: new _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormControl"](''),
-            operator: new _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormControl"](''),
-            number: new _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormControl"](''),
-            unitOrPeriod: new _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormControl"](''),
-            goods: new _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormControl"]('')
+            keyword: new _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormControl"]('')
         });
+        this.column.setValue(this.columns[0].value);
         this.subscriptions.add(this.searchForm.valueChanges.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["debounceTime"])(400), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["distinctUntilChanged"])()).subscribe(function () { return _this.search(); }));
         this.subscriptions.add(this.column.valueChanges.subscribe(function () { return _this.onColumnChange(); }));
     };
@@ -1418,54 +1344,21 @@ var ExtendedSearchComponent = /** @class */ (function () {
         this.subscriptions.unsubscribe;
     };
     ExtendedSearchComponent.prototype.onColumnChange = function () {
-        this.operator.reset();
-        this.number.reset();
-        this.unitOrPeriod.reset();
-        this.goods.reset();
+        this.search();
     };
     ExtendedSearchComponent.prototype.search = function () {
-        if ((this.column.value === "limit" || this.column.value === "remains") && this.operator.value && this.number.value && !isNaN(this.number.value)) {
+        if (this.keyword.value) {
             var column = this.column.value;
-            var number = this.number.value;
-            this.filteredData = this.limitOrRemainsFilter(column, number);
-        }
-        else if ((this.column.value === "unit" || this.column.value === "period") && this.unitOrPeriod.value) {
-            var column = this.column.value;
-            var unitOrPeriod = this.unitOrPeriod.value;
-            this.filteredData = this.unitOrPeriodFilter(column, unitOrPeriod);
-        }
-        else if ((this.column.value === "goods") && this.goods.value && this.goods.value.length > 0) {
-            var goods = this.goods.value;
-            this.filteredData = this.goodsFilter(goods);
+            this.filteredData = this.filter(column, this.keyword.value);
         }
         else {
             this.filteredData = this.cards;
         }
         this.notifyParent(this.filteredData);
     };
-    ExtendedSearchComponent.prototype.limitOrRemainsFilter = function (column, number) {
-        var _this = this;
+    ExtendedSearchComponent.prototype.filter = function (column, value) {
         return this.cards.filter(function (c) {
-            return c.groups.some(function (g) {
-                switch (_this.operator.value) {
-                    case "more": return g[column] > number;
-                    case "less": return g[column] < number;
-                    case "equal": return g[column] == number;
-                }
-            });
-        });
-    };
-    ExtendedSearchComponent.prototype.unitOrPeriodFilter = function (column, unitOrPeriod) {
-        return this.cards.filter(function (c) {
-            return c.groups.some(function (g) {
-                return g[column].id === unitOrPeriod.id;
-            });
-        });
-    };
-    ExtendedSearchComponent.prototype.goodsFilter = function (selectedGoods) {
-        return this.cards.filter(function (c) {
-            var allIncluded = [].concat.apply([], c.groups.map(function (g) { return g.includedGoods; }));
-            return selectedGoods.every(function (sg) { return allIncluded.some(function (ag) { return ag.id === sg.id; }); });
+            return c[column].includes(value);
         });
     };
     ExtendedSearchComponent.prototype.notifyParent = function (filteredData) {
@@ -1475,22 +1368,6 @@ var ExtendedSearchComponent = /** @class */ (function () {
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])(),
         tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", Array)
     ], ExtendedSearchComponent.prototype, "cards", void 0);
-    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])('card-statuses'),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", Array)
-    ], ExtendedSearchComponent.prototype, "cardStatuses", void 0);
-    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])(),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", Array)
-    ], ExtendedSearchComponent.prototype, "units", void 0);
-    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])(),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", Array)
-    ], ExtendedSearchComponent.prototype, "periods", void 0);
-    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])('all-goods'),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", Array)
-    ], ExtendedSearchComponent.prototype, "allGoods", void 0);
     tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"])(),
         tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", Object)
@@ -2565,7 +2442,7 @@ module.exports = ".search-type-btn {\r\n  margin-top: 15px;\r\n  margin-left: 10
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\r\n<ng-container>\r\n  <common-search [cards]=\"cards\"\r\n                 [card-statuses]=\"cardStatuses\"\r\n                 (filtered)=\"onCommonFiltered($event)\">\r\n  </common-search>\r\n</ng-container>\r\n\r\n<ng-container *ngIf=\"extendedSearch\">\r\n  <extended-search [cards]=\"commonFilterOutput\"\r\n                   [units]=\"units\"\r\n                   [periods]=\"periods\"\r\n                   [all-goods]=\"goods\"\r\n                   (filtered)=\"onExtendedFiltered($event)\">\r\n  </extended-search>\r\n</ng-container>\r\n\r\n<button mat-raised-button\r\n        matTooltip=\"{{extendedSearch ? 'Обычный поиск' : 'Расширенный поиск'}}\"\r\n        [matTooltipPosition]=\"'after'\"\r\n        (click)=\"handleModeChange()\"\r\n        class=\"mat-button mat-small search-type-btn inline-block\">\r\n  <i class=\"fa  {{extendedSearch ? 'fa-times' : 'fa-cog'}}\"></i>\r\n</button>\r\n"
+module.exports = "\r\n<!--<ng-container>\r\n  <common-search [cards]=\"cards\"\r\n                 (filtered)=\"onCommonFiltered($event)\">\r\n  </common-search>\r\n</ng-container>-->\r\n\r\n<ng-container *ngIf=\"extendedSearch\">\r\n  <extended-search [cards]=\"commonFilterOutput\"\r\n                   (filtered)=\"onExtendedFiltered($event)\">\r\n  </extended-search>\r\n</ng-container>\r\n"
 
 /***/ }),
 
@@ -2588,7 +2465,7 @@ __webpack_require__.r(__webpack_exports__);
 var SearchCardsComponent = /** @class */ (function () {
     function SearchCardsComponent() {
         this.filtered = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
-        this.extendedSearch = false;
+        this.extendedSearch = true;
     }
     SearchCardsComponent.prototype.ngOnChanges = function (changes) {
         if (changes.cards && changes.cards.currentValue !== changes.cards.previousValue) {
@@ -2607,28 +2484,12 @@ var SearchCardsComponent = /** @class */ (function () {
         this.filtered.emit(filteredData);
     };
     SearchCardsComponent.prototype.handleModeChange = function () {
-        this.extendedSearch = !this.extendedSearch;
+        //this.extendedSearch = !this.extendedSearch;
     };
     tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])(),
         tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", Array)
     ], SearchCardsComponent.prototype, "cards", void 0);
-    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])('card-statuses'),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", Array)
-    ], SearchCardsComponent.prototype, "cardStatuses", void 0);
-    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])(),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", Array)
-    ], SearchCardsComponent.prototype, "units", void 0);
-    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])(),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", Array)
-    ], SearchCardsComponent.prototype, "periods", void 0);
-    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])(),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", Array)
-    ], SearchCardsComponent.prototype, "goods", void 0);
     tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"])(),
         tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", Object)
